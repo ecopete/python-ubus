@@ -1,4 +1,4 @@
 __version__ = "0.0.1"
-from .protocol import Ubus, UbusException
+from .protocol import Method, Ubus, UbusError, UbusException, UbusNamespace
 
-__all__ = ["Ubus", "UbusException"]
+__all__ = ["Method", "Ubus", "UbusError", "UbusException", "UbusNamespace"]
